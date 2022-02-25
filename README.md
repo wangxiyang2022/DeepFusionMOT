@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the offical implementation of paper "DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association "
+This is the offical implementation of paper "[DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/abs/2202.12100) "
 
 ![329ee4972b77c1931b3f33f5e5e94ce3_raw 00_00_00-00_00_30](https://user-images.githubusercontent.com/71493146/155647887-68f42724-1f7e-417f-bf80-1e05d1c0d536.gif)
 
