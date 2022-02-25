@@ -107,10 +107,10 @@ If you want to evaluate the tracking results using the evaluation tool on the KI
 
 Using  3D detections of PointRCNN  and 2D detections of RRC,  the following results will be obtained.
 
-|                      | HOAT(% **↑)** | **DetA(% **↑)**** | **AssA**(% **↑)** | IDSW（↓） | MOTP(% **↑)** | MOTA(% **↑)** | FPS（↑） |
-| :------------------: | :-----------: | :---------------: | :---------------: | :-------: | :-----------: | :-----------: | :------: |
-| **Training dataset** |     77.45     |       75.35       |       79.85       |    83     |     86.60     |    87.28%     |   104    |
-| **Testing dataset**  |    75.46%     |      71.54%       |       80.05       |    84     |     85.02     |    84.63%     |   110    |
+|                      | HOAT( **↑)** | **DetA( **↑)**** | **AssA**(**↑)** | IDSW（↓） | MOTP(**↑)** | MOTA(**↑)** | FPS（↑） |
+| :------------------: | :----------: | :--------------: | :-------------: | :-------: | :---------: | :---------: | :------: |
+| **Training dataset** |    77.45%    |      75.35%      |     79.85%      |    83     |   86.60%    |   87.28%    |   104    |
+| **Testing dataset**  |    75.46%    |      71.54%      |     80.05%      |    84     |   85.02%    |   84.63%    |   110    |
 
 
 
