@@ -28,7 +28,6 @@ In the recent literature, on the one hand, many 3D multi-object tracking (MOT) w
 * scipy
 * pillow
 * pandas
-* pillow
 * numba
 * numpy
 * opencv-python
