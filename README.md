@@ -80,13 +80,13 @@ DeepFusionMOT
         ├── train
         │   ├──2D_rrc_Car_train  
         │   ├──3D_pointrcnn_train 
-		│   ├──calib_train
-		│   ├──image_02_train
+	│   ├──calib_train
+	│   ├──image_02_train
         ├── test
             ├──2D_rrc_Car_test
             ├──3D_pointrcnn_test
-		    ├──calib_test
-		    ├──image_02_test
+	    ├──calib_test
+            ├──image_02_test
 ```
 
 
