@@ -89,7 +89,19 @@ DeepFusionMOT
             ├──image_02_test
 ```
 
+- **For 3D detections**
 
+| Frame | Type |      2D BBOX (x1, y1, x2, y2)       | Score  |          3D BBOX (h, w, l, x, y, z, rot_y)          |  Alpha  |
+| :---: | :--: | :---------------------------------: | :----: | :-------------------------------------------------: | :-----: |
+|   0   |  2   | 298.3125,165.1800,458.2292,293.4391 | 8.2981 | 1.9605,1.8137,4.7549,-4.5720,1.8435,13.5308,-2.1125 | -1.7867 |
+
+- For 2D detections
+
+| Frame |          2D BBOX (x1, y1, x2, y2)           |  Score   |
+| :---: | :-----------------------------------------: | :------: |
+|   0   | 296.021000,160.173000,452.297000,288.372000 | 0.529230 |
+
+The format definition can be found in the object development toolkit here: https://github.com/JonathonLuiten/TrackEval/blob/master/docs/KITTI-format.txt
 
 #### *5. Run demo*
 
