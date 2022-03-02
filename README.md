@@ -128,4 +128,4 @@ Using  3D detections of PointRCNN  and 2D detections of RRC,  the following resu
 
 ### Acknowledgement
 
-A portion  code is borrowed from [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) and [Deepsort](https://github.com/nwojke/deep_sort).  Many thanks to their wonderful work!
+A portion  code is borrowed from [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) and [Deepsort](https://github.com/nwojke/deep_sort) and visualization code from [3D-Detection-Tracking-Viewer](https://github.com/hailanyi/3D-Detection-Tracking-Viewer).  Many thanks to their wonderful work!
