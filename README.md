@@ -12,15 +12,15 @@ Contact: [wangxiyang@cqu.edu.cn](mailto:zhouxy@cs.utexas.edu). Any questions or 
 
 In the recent literature, on the one hand, many 3D multi-object tracking (MOT) works have focused on tracking accuracy and neglected computation speed, commonly by designing rather complex cost functions and feature extractors. On the other hand, some methods have focused too much on computation speed at the expense of tracking accuracy. In view of these issues, this paper proposes a robust and fast camera-LiDAR fusion-based MOT method that achieves a good trade-off between accuracy and speed. Relying on the characteristics of camera and LiDAR sensors, an effective deep association mechanism is designed and embedded in the proposed MOT method. This association mechanism realizes tracking of an object in a 2D domain when the object is far away and only detected by the camera, and updating of the 2D trajectory with 3D information obtained when the object appears in the LiDAR field of view to achieve a smooth fusion of 2D and 3D trajectories. Extensive experiments based on the KITTI dataset indicate that our proposed method presents obvious advantages over the state-of-the-art MOT methods in terms of both tracking accuracy and processing speed.
 
-![comparison](E:\code\DeepFusionMOT\assets\comparison.jpg)
+![comparison](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/comparison.jpg)
 
 ## DeepFusionMOT
-![Framework](E:\code\DeepFusionMOT\assets\Framework.jpg)
+![Framework](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/Framework.jpg)
 
 
 ### Video examples on benchmarks dataset
 
-![Video examples](E:\code\DeepFusionMOT\assets\Video examples.gif)
+![Video examples](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/Video examples.gif)
 
 
 ## Dependencies
