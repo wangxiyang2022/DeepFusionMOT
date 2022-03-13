@@ -20,7 +20,7 @@ In the recent literature, on the one hand, many 3D multi-object tracking (MOT) w
 
 ### Video examples on benchmarks dataset
 
-![Video examples](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/Video examples.gif)
+![Video examples](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/Video_examples.gif)
 
 
 ## Dependencies
