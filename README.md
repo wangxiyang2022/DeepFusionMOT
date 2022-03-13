@@ -4,13 +4,19 @@
 
 This is the offical implementation of paper "[DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/abs/2202.12100) "
 
+![image-20220313214103288](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220313214103288.png)
+
+
+
 Contact: [wangxiyang@cqu.edu.cn](mailto:zhouxy@cs.utexas.edu). Any questions or discussion are welcome!
 
-![329ee4972b77c1931b3f33f5e5e94ce3_raw 00_00_00-00_00_30](https://user-images.githubusercontent.com/71493146/155647887-68f42724-1f7e-417f-bf80-1e05d1c0d536.gif)
+
 
 ## Abstract
 
 In the recent literature, on the one hand, many 3D multi-object tracking (MOT) works have focused on tracking accuracy and neglected computation speed, commonly by designing rather complex cost functions and feature extractors. On the other hand, some methods have focused too much on computation speed at the expense of tracking accuracy. In view of these issues, this paper proposes a robust and fast camera-LiDAR fusion-based MOT method that achieves a good trade-off between accuracy and speed. Relying on the characteristics of camera and LiDAR sensors, an effective deep association mechanism is designed and embedded in the proposed MOT method. This association mechanism realizes tracking of an object in a 2D domain when the object is far away and only detected by the camera, and updating of the 2D trajectory with 3D information obtained when the object appears in the LiDAR field of view to achieve a smooth fusion of 2D and 3D trajectories. Extensive experiments based on the KITTI dataset indicate that our proposed method presents obvious advantages over the state-of-the-art MOT methods in terms of both tracking accuracy and processing speed.
+
+![image-20220313214415575](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220313214415575.png)
 
 ## DeepFusionMOT
 ![框架](https://user-images.githubusercontent.com/71493146/155648073-e0d9b364-f869-421e-9280-937651d805e9.jpg)
@@ -18,7 +24,7 @@ In the recent literature, on the one hand, many 3D multi-object tracking (MOT) w
 
 ### Video examples on benchmarks dataset
 
-![my_0001 00_00_00-00_00_30](https://user-images.githubusercontent.com/71493146/155648648-3951f69e-7f93-4c73-ad31-4ab1bccf438e.gif)
+![329ee4972b77c1931b3f33f5e5e94ce3_raw 00_00_00-00_00_30](https://user-images.githubusercontent.com/71493146/155647887-68f42724-1f7e-417f-bf80-1e05d1c0d536.gif)
 
 
 ## Dependencies
