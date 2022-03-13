@@ -4,9 +4,7 @@
 
 This is the offical implementation of paper "[DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/abs/2202.12100) "
 
-![image-20220313214103288](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220313214103288.png)
-
-
+![image-20220313215328656](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220313215328656.png)
 
 Contact: [wangxiyang@cqu.edu.cn](mailto:zhouxy@cs.utexas.edu). Any questions or discussion are welcome!
 
