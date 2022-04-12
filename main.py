@@ -136,7 +136,7 @@ if __name__ == '__main__':
         seq_file_2D = detection_file_list_2D[i]
         seq_name, datasets_name, _ = fileparts(seq_file_3D)
         txt_path = txt_path_0 + "\\" + image_filename + '.txt'
-        image_path = image_path_0 + '\\' + image_filename
+        image_path = image_path_0 + '\\' + image_filename; mkdir_if_inexistence(image_path)
 
         calib_file = [calib_file for calib_file in calib_files if calib_file==seq_name ]
         calib_file_seq = os.path.join(calib_root, ''.join(calib_file))
