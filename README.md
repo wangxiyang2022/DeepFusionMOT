@@ -1,7 +1,5 @@
 # DeepFusionMOT
 
-![](https://img.shields.io/badge/%20State%20of%20the%20Art%20-Multiple%20Object%20Tracking%20on%20KITTI%20Dataset-Lime) ![](https://img.shields.io/badge/%20State%20of%20the%20Art%20-HOTA%3A75.46%20%7C%20MOTA%3A84.63%20%7C%20IDSW%3A84%20%7C%20FPS%3A110-Lime)
-
 This is the offical implementation of paper "[DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/abs/2202.12100) "
 
 ![HOTA-FPS](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/HOTA_FPS.jpg)
