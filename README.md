@@ -3,7 +3,7 @@
 This is the offical implementation of paper "[DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/abs/2202.12100) "
 
 # News
-##This paper has been accepted as both  a journal paper in Robotics and Automation Letters (RA-L), as well as being accepted as a conference paper at IROS 2022!!!##
+## This paper has been accepted as both  a journal paper in Robotics and Automation Letters (RA-L), as well as being accepted as a conference paper at IROS 2022!!!##
 
 ![HOTA-FPS](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/HOTA_FPS.jpg)
 
