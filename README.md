@@ -130,3 +130,18 @@ Using  3D detections of PointRCNN  and 2D detections of RRC,  the following resu
 ### Acknowledgement
 
 A portion  code is borrowed from [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) and [Deepsort](https://github.com/nwojke/deep_sort), and the visualization code from [3D-Detection-Tracking-Viewer](https://github.com/hailanyi/3D-Detection-Tracking-Viewer).  Many thanks to their wonderful work!
+
+
+### Citation
+
+
+If you find this work useful, please consider to cite our paper:
+
+```
+@ARTICLE{9810346,  
+author={Wang, Xiyang and Fu, Chunyun and Li, Zhankun and Lai, Ying and He, Jiawei},  
+journal={IEEE Robotics and Automation Letters},   
+title={DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion With Deep Association},   
+year={2022},  volume={7},  number={3},  pages={8260-8267},  doi={10.1109/LRA.2022.3187264}}
+
+```
