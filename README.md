@@ -28,16 +28,6 @@ In the recent literature, on the one hand, many 3D multi-object tracking (MOT) w
 
 ## Dependencies
 * Windows >= 8
-* scikit-image
-* scikit-learn
-* scipy
-* pillow
-* pandas
-* numba
-* numpy
-* opencv-python
-* filterpy
-* torchvision
 
 ## Getting Started
 
