@@ -1,6 +1,8 @@
 # News
 ## This paper has been accepted as both  a journal paper in Robotics and Automation Letters (RA-L), as well as being accepted as a conference paper at IROS 2022!!!
 
+## We recently released another very interesting work that only uses two detectors for different modalities to achieve robust tracking, thereby avoiding complex data association processes. You can check out this [repo](https://github.com/wangxiyang2022/YONTD-MOT) for more details.
+
 ## StrongFusionMOT(2022.12)
 On the basis of DeepFusionMOT, we have made many improvements, such as proposing a distance and shape-based IOU variant - SDIOU, and applying SDIOU to multiple MOT frameworks (DeepFusionMOT, EagerMOT, OC-SORT, ByteTracker DeepSORT etc.) have improved performance, see the article "[StrongFusionMOT](https://ieeexplore.ieee.org/abstract/document/9976946/)" for details.
 
