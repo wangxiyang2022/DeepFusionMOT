@@ -1,4 +1,8 @@
+import copy
+
 import numpy as np
+
+from utils.kitti_oxts import egomotion_compensation_ID, get_ego_traj
 
 '''
   3D track management
@@ -77,3 +81,16 @@ class Track_3D:
     def is_track_id_3d(self):
         track_id_3d= self.track_id_3d
         return track_id_3d
+
+    def ego_motion_compensation_3d(self, frame, calib_file, oxts):
+        # inverse ego motion compensation, move trks from the last frame of coordinate to the current frame for matching
+
+        # assert len(self.trackers) == len(trks), 'error'
+        ego_xyz_imu, ego_rot_imu, left, right = get_ego_traj(oxts, frame, 1, 1, only_fut=True, inverse=True)
+        xyz = np.array([self.pose[0], self.pose[1], self.pose[2]]).reshape((1, -1))
+        compensated = egomotion_compensation_ID(xyz, calib_file, ego_rot_imu, ego_xyz_imu, left, right)
+        self.pose[0], self.pose[1], self.pose[2] = compensated[0]
+        try:
+            self.kf_3d.kf.x[:3] = copy.copy(compensated).reshape((-1))
+        except:
+            self.kf_3d.kf.x[:3] = copy.copy(compensated).reshape((-1, 1))

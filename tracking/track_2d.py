@@ -42,7 +42,7 @@ class Track_2D:
         ret[:2] -= ret[2:] / 2
         return ret
 
-    def x1y1x2y2(self):
+    def to_x1y1x2y2(self):
         """
         Get current position in bounding box format `(min x, miny, max x, max y)`.
         """
