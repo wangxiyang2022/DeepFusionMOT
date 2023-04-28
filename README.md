@@ -1,11 +1,6 @@
 # News
 ## This paper has been accepted as both  a journal paper in Robotics and Automation Letters (RA-L), as well as being accepted as a conference paper at IROS 2022!!!
 
-## We recently released another very interesting work that only uses two detectors for different modalities to achieve robust tracking, thereby avoiding complex data association processes. You can check out this [repo](https://github.com/wangxiyang2022/YONTD-MOT) for more details.
-
-## StrongFusionMOT(2022.12)
-On the basis of DeepFusionMOT, we have made many improvements, such as proposing a distance and shape-based IOU variant - SDIOU, and applying SDIOU to multiple MOT frameworks (DeepFusionMOT, EagerMOT, OC-SORT, ByteTracker DeepSORT etc.) have improved performance, see the article "[StrongFusionMOT](https://ieeexplore.ieee.org/abstract/document/9976946/)" for details.
-
 # DeepFusionMOT
 
 This is the offical implementation of paper "[DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/abs/2202.12100) "
@@ -30,9 +25,15 @@ In the recent literature, on the one hand, many 3D multi-object tracking (MOT) w
 
 ![Video examples](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/Video_examples.gif)
 
+## Update
+* (2022/6/21)This paper has been accepted as a journal paper in Robotics and Automation Letters (RA-L).
+* (2022/7/31)This paper has been accepted as a conference paper at IROS 2022.
+* (2022/10/25)Online presentation on IROS2022.
+* (2022/11/6)Another article"[StrongFusionMOT](https://ieeexplore.ieee.org/abstract/document/9976946/)" based on DeepFusionMOT improvement was accepted by IEEE Sensors Journal.
+* (2023/4/28)The code has been refactored and different cost functions have been introduced, resulting in further improvement in performance.
 
 ## Dependencies
-* Windows >= 8
+- Ubuntu 20.04
 
 ## Getting Started
 
@@ -50,14 +51,36 @@ The final dataset organization should be like this:
 
 ```
 DeepFusionMOT
-├── datasets
-    ├── kitti
-        ├── train
-		│   ├──calib_train
-		│   ├──image_02_train
-        ├── test
-		    ├──calib_test
-		    ├──image_02_test
+├── data
+│   ├── kitti
+│   │   │── tracking
+│   │   │   │──testing
+|   │   │   │   ├──calib
+|   │   │   │   |    ├──0000.txt
+|   │   │   │   |    ├──....txt
+|   │   │   │   |    └──0028.txt
+|   │   │   │   ├──image_02
+|   │   │   │   |    ├──0000
+|   │   │   │   |    ├──....
+|   │   │   │   |    └──0028
+|   │   │   │   ├──oxts
+|   │   │   │   |    ├──0000.txt
+|   │   │   │   |    ├──....
+|   │   │   │   |    └──0028.txt
+|   │   │   │   ├──label_02
+|   │   │   │   |    ├──0000.txt
+|   │   │   │   |    ├──....txt
+|   │   │   │   |    └──0028.txt
+|   │   │   │   ├──velodyne
+|   │   │   │   |    ├──0000
+|   │   │   │   |    ├──....
+|   │   │   │   |    └──0028  
+│   │   │   │──training  # the structure is same as testing set
+|   │   │   │   ├──calib
+|   │   │   │   ├──image_02
+|   │   │   │   ├──pose
+|   │   │   │   ├──label_02
+|   │   │   │   └──velodyne 
 ```
 
 #### *3. Install dependency*
@@ -68,26 +91,10 @@ pip install -r requirements.txt
 ```
 
 
-
 #### *4. 3D Object Detections & 2D Object Detections*
 
-Thanks to these researchers for making their code public, in this repository, for convenience, we provide the 3D detections of PointRCNN and 2D detections of RRC on the KITTI MOT dataset for car. Of course you can also use the results of other detectors, but you need to put the files in the following file directories.
+Thanks to these researchers for making their code public, in this repository, for convenience, we provide the 3D detections of PointRCNN and 2D detections of RRC on the KITTI MOT dataset for car. Of course you can also use the results of other detectors.
 
-```
-DeepFusionMOT
-├── datasets
-    ├── kitti
-        ├── train
-        │   ├──2D_rrc_Car_train  
-        │   ├──3D_pointrcnn_train 
-	│   ├──calib_train
-	│   ├──image_02_train
-        ├── test
-            ├──2D_rrc_Car_test
-            ├──3D_pointrcnn_test
-	    ├──calib_test
-            ├──image_02_test
-```
 
 - **For 3D detections**
 
