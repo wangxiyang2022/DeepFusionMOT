@@ -8,8 +8,12 @@ This is the offical implementation of paper "[DeepFusionMOT: A 3D Multi-Object T
 
 ![HOTA-FPS](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/HOTA_FPS.jpg)
 
-Contact: [wangxiyang@cqu.edu.cn](mailto:zhouxy@cs.utexas.edu). Any questions or discussion are welcome!
-
+## Update
+* (2022/6/21)This paper has been accepted as a journal paper in Robotics and Automation Letters (RA-L).
+* (2022/7/31)This paper has been accepted as a conference paper at IROS 2022.
+* (2022/10/25)Online presentation on IROS2022.
+* (2022/11/6)Another article"[StrongFusionMOT](https://ieeexplore.ieee.org/abstract/document/9976946/)" based on DeepFusionMOT improvement was accepted by IEEE Sensors Journal.
+* (2023/4/28)The code has been refactored and different cost functions have been introduced, resulting in further improvement in performance.
 
 ## Abstract
 
@@ -24,13 +28,6 @@ In the recent literature, on the one hand, many 3D multi-object tracking (MOT) w
 ### Video examples on benchmarks dataset
 
 ![Video examples](https://github.com/wangxiyang2022/DeepFusionMOT/raw/master/assets/Video_examples.gif)
-
-## Update
-* (2022/6/21)This paper has been accepted as a journal paper in Robotics and Automation Letters (RA-L).
-* (2022/7/31)This paper has been accepted as a conference paper at IROS 2022.
-* (2022/10/25)Online presentation on IROS2022.
-* (2022/11/6)Another article"[StrongFusionMOT](https://ieeexplore.ieee.org/abstract/document/9976946/)" based on DeepFusionMOT improvement was accepted by IEEE Sensors Journal.
-* (2023/4/28)The code has been refactored and different cost functions have been introduced, resulting in further improvement in performance.
 
 ## Dependencies
 - Ubuntu 20.04
