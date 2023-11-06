@@ -113,11 +113,8 @@ The format definition can be found in the object development toolkit here: https
 python main.py
 ```
 
-#### *6. Visualization*
 
-If you want to visualize the tracking results, first you need to uncomment lines 198  in the main.py. Then run `python main.py`. You can see the results in `results/train/image` . If you want to make a video of the tracking results, you  need to run `visualization/img_to_video.py`.  Of course, you need to modify the corresponding file directory.
-
-#### *7. KITTI MOT Evaluation*
+#### *6. KITTI MOT Evaluation*
 
 If you want to evaluate the tracking results using the evaluation tool on the KITTI website, you will need to go https://github.com/JonathonLuiten/TrackEval to download the evaluation code and follow the appropriate steps to set.
 
